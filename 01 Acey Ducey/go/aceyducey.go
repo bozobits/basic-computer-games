@@ -7,11 +7,12 @@ import (
 )
 
 func main() {
-	//N:=100
+  
 	Q := 100
 	var A, B, C, M int
 	var S string
 	rand.Seed(time.Now().UnixNano())
+
 	fmt.Println("\t\t\tACEY DUCEY CARD GAME")
 	fmt.Println("\t\tCREATIVE COMPUTING  MORRISTOWN, NEW JERSEY")
 	fmt.Println()
@@ -25,6 +26,7 @@ func main() {
 	fmt.Println()
 	fmt.Println("YOU NOW HAVE", Q, "DOLLARS.")
 	fmt.Println()
+
 	for {
 		fmt.Println("HERE ARE YOUR NEXT TWO CARDS: ")
 		//[0,13) +2
